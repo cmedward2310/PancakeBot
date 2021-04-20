@@ -5,7 +5,7 @@
 
 // create an instance of the stepper class, specifying
 // the number of steps of the motor and the pins it's
-// attached to
+// attached to blah blah
 Stepper stepper(STEPS,5,6,7,8);
 int buttonPin = 26;
 int buttonRead = 0;
