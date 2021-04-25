@@ -6,13 +6,16 @@
 // create an instance of the stepper class, specifying
 // the number of steps of the motor and the pins it's
 Stepper stepper(STEPS,5,6,7,8);
-
+ deltaA = 
+ deltaY = .5 * (deltaA + deltaB);
+ deltaX = .5 * (deltaA - deltaB);
 void setup()
 {
   Serial.begin(9600);
   Serial.println("Stepper test!");
   // set the speed of the motor to 30 RPMs
   stepper.setSpeed(80);
+
 }
 
 void loop(){ 
